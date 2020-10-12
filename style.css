@@ -1,0 +1,134 @@
+body{
+    box-sizing: border-box;
+    background-color: white;
+    font-family: 'Roboto', 'Times New Roman', serif;
+    color: #003E52;
+    margin-right: 0%;
+    margin-left: 0%;
+    text-align: center;
+}
+
+/* menu */
+
+.nav {
+    margin: 10px;
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.menu ul {
+    display:flex;
+    list-style: none;
+}
+
+.menu ul li a {
+    font-size: 20px;
+    color: #003E52;
+    text-decoration: none;
+    margin-right: 30px;
+}
+
+.menu ul li a:hover {
+    color: #6cadc2;
+}
+
+.header-image img {
+    width: 100vw;
+}
+
+/* presentation */
+
+.présentation {
+    display:flex;
+    justify-content: center;
+    margin: 0px, 300px;
+}
+
+.texte-présentation {
+    color: #003E52;
+    text-align: right;
+    margin-top: 50px;
+}
+
+.salades img {
+    width: 100vw;
+}
+
+
+/* Signatures poke */
+
+.signature-poke h1 {
+  margin: 0 400px;
+  font-size: 30px;
+  margin-bottom: 50px;
+  border-bottom: #003E52 1px solid;
+}
+
+i {
+    margin-right: 20px;
+    padding-top: 10px;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+.blocTextes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+}
+
+.icone-texte{
+    display:flex;
+    flex-wrap: wrap;
+}
+
+    .signature-poke div i {
+    margin-left: 65vh;
+    color:#77a8b8;
+    font-size: 40px;
+}
+
+
+/* Sushis */
+
+.sushis img {
+    width: 100vw;
+    margin: 0vh
+}
+
+
+/* Carte */
+
+iframe {
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    margin-top: 20px;
+}
+
+
+/* Footer */
+
+footer {
+    color: white;
+    display:flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    background-color: #003e52;
+    height: 200px;
+}
+
+
+@media screen and (max-width: 1024px){
+
+    .signature-poke h1 {
+        margin: 0 auto;
+}
+
+}
